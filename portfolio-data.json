@@ -1,0 +1,138 @@
+{
+  "hero": {
+    "avatar": "",
+    "cover": "",
+    "availableForHire": true
+  },
+  "sectionImages": {
+    "work": "",
+    "projects": "",
+    "stack": "",
+    "contact": ""
+  },
+  "jobs": [
+    {
+      "id": "j1",
+      "hash": "a3f9c1e",
+      "role": "Graphics Specialist",
+      "company": "Integreon Managed Solutions Manila",
+      "date": "2025 — present",
+      "logo": "",
+      "msg": "Produces, formats, and designs business presentations. Transform raw text and data into clean slides while following strict corporate brand guidelines.",
+      "add": "+ 40% throughput",
+      "rm": "− 60% p99 latency",
+      "intro": "Joined as the third engineer on the payments platform team and ended up owning the rebuild of the core processing pipeline end to end — from design doc through rollout.",
+      "highlights": [
+        "Migrated a monolithic cron-based scheduler to an event-driven worker fleet with zero customer-facing downtime",
+        "Designed the idempotency and retry model that's still handling every transaction today",
+        "Mentored two new hires through their first on-call rotations"
+      ],
+      "stack": "Go, Kafka, Postgres, Kubernetes"
+    },
+    {
+      "id": "j2",
+      "hash": "7b2d044",
+      "role": "Software Engineer",
+      "company": "Fielder Labs",
+      "date": "2020 — 2023",
+      "logo": "",
+      "msg": "Owned the internal API gateway; introduced contract testing that cut cross-team integration bugs to near zero.",
+      "add": "+ 12 services onboarded",
+      "rm": "− 90% integration incidents",
+      "intro": "Took over a barely-documented internal gateway and turned it into the team's most trusted piece of infrastructure.",
+      "highlights": [
+        "Introduced consumer-driven contract testing across 12 internal services",
+        "Wrote the onboarding guide that's still used for every new service today",
+        "Ran the gateway's on-call rotation for two years with zero major incidents"
+      ],
+      "stack": "Node.js, gRPC, Docker"
+    },
+    {
+      "id": "j3",
+      "hash": "e91f7aa",
+      "role": "AutoCAD Drafter",
+      "company": "Wilchat Marketing",
+      "date": "2024 — 2025",
+      "logo": "",
+      "msg": "Shipped the first version of the notifications service; on-call rotation from day one.",
+      "add": "+ 3 languages supported",
+      "rm": "",
+      "intro": "First job out of school — thrown straight into building a notifications service from a blank repo.",
+      "highlights": [
+        "Shipped v1 of the notifications service supporting email, SMS, and push",
+        "Set up the team's first CI pipeline with automated test coverage checks"
+      ],
+      "stack": "Python, AWS SQS"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "name": "queuely",
+      "stars": "★ 1.2k",
+      "desc": "Lightweight job queue for Go, built for teams outsizing cron but not ready for Kafka.",
+      "stack": "Go, Redis, gRPC",
+      "link": "#"
+    },
+    {
+      "id": "p2",
+      "name": "schema-diff",
+      "stars": "★ 640",
+      "desc": "CLI that catches breaking database migrations before they hit CI.",
+      "stack": "Rust, Postgres",
+      "link": "#"
+    },
+    {
+      "id": "p3",
+      "name": "tinyproxy-ui",
+      "stars": "★ 310",
+      "desc": "A minimal dashboard for observing traffic through internal proxies in real time.",
+      "stack": "TypeScript, WebSockets",
+      "link": "#"
+    },
+    {
+      "id": "p4",
+      "name": "backfill",
+      "stars": "★ 205",
+      "desc": "Zero-downtime data backfill tool for large Postgres tables, used in production at three companies.",
+      "stack": "Python, Postgres",
+      "link": "#"
+    }
+  ],
+  "skills": [
+    "Go",
+    "Python",
+    "TypeScript",
+    "Rust",
+    "Postgres",
+    "Redis",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "AWS",
+    "gRPC"
+  ],
+  "contact": [
+    {
+      "id": "c1",
+      "label": "✉ jordan@example.com",
+      "href": "mailto:jordan@example.com"
+    },
+    {
+      "id": "c2",
+      "label": "↗ github.com/yujitsuta",
+      "href": "#"
+    },
+    {
+      "id": "c3",
+      "label": "↗ linkedin.com/in/yujitsuta",
+      "href": "#"
+    },
+    {
+      "id": "c4",
+      "label": "↗ résumé.pdf",
+      "href": "#"
+    }
+  ]
+}
